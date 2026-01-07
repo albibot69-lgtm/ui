@@ -11,7 +11,7 @@ local gameName   = tostring(game:GetService("MarketplaceService"):GetProductInfo
 gameName         = gameName:gsub("[^%w_ ]", "")
 gameName         = gameName:gsub("%s+", "_")
 
-local ConfigFile = "ThanHub/Config/CHX_" .. gameName .. ".json"
+local ConfigFile = "LexsHub/Config/CHX_" .. gameName .. ".json"
 
 ConfigData       = {}
 Elements         = {}
