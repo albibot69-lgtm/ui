@@ -459,9 +459,9 @@ function Chloex:MakeNotify(NotifyConfig)
     return NotifyFunction
 end
 
-function than(msg, delay, color, title, desc)
+function Lexs(msg, delay, color, title, desc)
     return Chloex:MakeNotify({
-        Title = title or "ThanHub",
+        Title = title or "LexsHub",
         Description = desc or "Notification",
         Content = msg or "Content",
         Color = color or Color3.fromRGB(0, 208, 255),
