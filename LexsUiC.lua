@@ -1,4 +1,4 @@
-local HttpService = game:GetService("HttpService")
+local HttpService = game:GetService("HttpService") --v0.01
 
 if not isfolder("LexsHub") then
     makefolder("LexsHub")
