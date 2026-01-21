@@ -470,7 +470,7 @@ function Lexs(msg, delay, color, title, desc)
     })
 end
 
-function LexsHub:Window(GuiConfig)
+function Chloex:Window(GuiConfig)
     GuiConfig              = GuiConfig or {}
     GuiConfig.Title        = GuiConfig.Title or "Lexs Hub"
     GuiConfig.Footer       = GuiConfig.Footer or "Lexs Hub :3"
