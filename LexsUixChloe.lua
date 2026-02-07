@@ -459,6 +459,16 @@ function LexsHub:MakeNotify(NotifyConfig)
     return NotifyFunction
 end
 
+function Lexs(msg, delay, color, title, desc)
+    return Chloex:MakeNotify({
+        Title = title or "LexsHub",
+        Description = desc or "Notification",
+        Content = msg or "Content",
+        Color = color or Color3.fromRGB(0, 208, 255),
+        Delay = delay or 4
+    })
+end
+
 function LexsHub:Window(GuiConfig)
     GuiConfig = GuiConfig or {}
     GuiConfig.Title = GuiConfig.Title or "LexsHub"
